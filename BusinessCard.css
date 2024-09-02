@@ -68,7 +68,7 @@ body{
 @media screen and (max-width: 380px){
 
     .image{
-        height: 28%;
+        height: 32%;
         gap: 100px;
     }
     .left, .right{
