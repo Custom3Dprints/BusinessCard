@@ -34,6 +34,8 @@ body{
     
     width: 30%;
     height: 48%;
+
+
 }
 
 
@@ -65,11 +67,11 @@ body{
 @media screen and (max-width: 340px){
 
     .image{
-        height: 26%;
-        gap: 55px;
+        height: 20%;
+        gap: 68px;
     }
     .left, .right{
-        margin-top: 30%;
+        margin-top: 15%;
         
         width: 30%;
         height: 40%;
