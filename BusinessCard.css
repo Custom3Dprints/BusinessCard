@@ -35,7 +35,9 @@ body{
     width: 30%;
     height: 48%;
 
-
+    /*
+    border: 2px solid blue;
+    */
 }
 
 
@@ -48,7 +50,7 @@ body{
 @media screen and (max-width: 800px){
 
     .image{
-        height: 50%;
+        height: 26%;
         gap: 24%;
     }
     .left, .right{
@@ -59,16 +61,15 @@ body{
     }
 
     .left a, .right a{
-        font-size: 2.6rem;
-        
+        font-size: 1.5rem;
     }
 
 }
-@media screen and (max-width: 340px){
+@media screen and (max-width: 380px){
 
     .image{
         height: 20%;
-        gap: 68px;
+        gap: 76px;
     }
     .left, .right{
         margin-top: 15%;
