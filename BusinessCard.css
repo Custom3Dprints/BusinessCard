@@ -5,33 +5,79 @@ body{
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    height: 99.5vh; /* Make the container full height of the viewport */
+    height: 90%; /* Make the container full height of the viewport */
 }
 .image{
     width: 80%;
-    height: 92%;
+    height: 90%;
     background-image: url('BusinessCard2.png');
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-}
-.word1{
-    color: transparent;
-    text-decoration: none; /*No underline*/
-
-    position: absolute;
     
-    left: 30%;
-    top: 55%;
-    transform: translateX(-50%);
-}
-.word2{
-    color: transparent;
-    text-decoration: none; /*No underline*/
-
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25%;
     
-    left: 70%;
-    top: 55%;
-    transform: translateX(-50%);
+}
+
+.left{
+    margin-left: 11%;
+}
+.right{
+    margin-right: 10%;
+}
+
+.left, .right{
+    margin-top: 13%;
+    
+    width: 30%;
+    height: 48%;
+}
+
+
+.left a, .right a{
+    color: transparent;
+    font-size: 5rem;
+    
+}
+
+@media screen and (max-width: 800px){
+
+    .image{
+        height: 50%;
+        gap: 24%;
+    }
+    .left, .right{
+        margin-top: 14%;
+        
+        width: 30%;
+        height: 48%;
+    }
+
+    .left a, .right a{
+        font-size: 2.6rem;
+        
+    }
+
+}
+@media screen and (max-width: 340px){
+
+    .image{
+        height: 26%;
+        gap: 55px;
+    }
+    .left, .right{
+        margin-top: 30%;
+        
+        width: 30%;
+        height: 40%;
+    }
+    
+    .left a, .right a{
+        font-size: .8rem;
+        
+    }
+
 }
