@@ -35,14 +35,14 @@ body{
     width: 30%;
     height: 48%;
 
-    border: 2px solid blue;
     /*
+    border: 2px solid blue;
     */
 }
 
 
 .left a, .right a{
-    color: green;
+    color: transparent;
     font-size: 5rem;
     
 }
