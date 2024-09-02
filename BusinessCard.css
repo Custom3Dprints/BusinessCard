@@ -8,8 +8,8 @@ body{
     height: 90%; /* Make the container full height of the viewport */
 }
 .image{
-    width: 80%;
-    height: 90%;
+    width: 98%;
+    height: 100%;
     background-image: url('BusinessCard2.png');
     background-position: center;
     background-size: 100% 100%;
@@ -68,8 +68,8 @@ body{
 @media screen and (max-width: 380px){
 
     .image{
-        height: 23%;
-        gap: 76px;
+        height: 28%;
+        gap: 100px;
     }
     .left, .right{
         margin-top: 15%;
@@ -79,7 +79,7 @@ body{
     }
     
     .left a, .right a{
-        font-size: 1rem;
+        font-size: 1.2rem;
         
     }
 
